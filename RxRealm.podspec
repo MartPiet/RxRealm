@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "RxRealm"
   # Version to always follow latest tag, with fallback to major
-  s.version = ENV["RELEASE_VERSION"] || "4.0.0"
+  s.version = ENV["RELEASE_VERSION"] || "4.0.2"
   s.license = "MIT"
   s.description = <<-DESC
     This is an Rx extension that provides an easy and straight-forward way
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/RxSwiftCommunity/RxRealm.git", :tag => "v" + ENV["RELEASE_VERSION"] }
   s.swift_version = "5.1"
 
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "11.0"
   s.osx.deployment_target = "10.10"
   s.tvos.deployment_target = "9.0"
   s.watchos.deployment_target = "3.0"
